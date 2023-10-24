@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  animation-name: kare;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes kare {
+  0%   {left: 0px; top:0px; background-color: green;}
+  25%  {left: 200px; top:0px; background-color: red;}
+  50%  {left:200px; top:200px; background-color: green;}
+  75% {left:0px; top:200px; background-color: red;}
+  100% {left:0px; top:0px; background-color: green;}
+}
+</style>
+</head>
+<body>
+    <h1>CSS Animation</h1>
+    <p><b>This example uses six of the animation properties:</b></p>
+<div></div>
+
+</body>
+</html>
